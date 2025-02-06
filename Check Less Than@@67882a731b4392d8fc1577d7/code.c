@@ -8,6 +8,6 @@ int main() {
     if(num2 > num1)
     {printf("True");}
     else()
-    {printf("False")}
+    {printf("False");}
     return 0;
 }
