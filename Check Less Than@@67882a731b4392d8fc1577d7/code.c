@@ -5,6 +5,8 @@ int main() {
     scanf("%d%d",&num1,&num2);
     if(num2 > num1)
     {printf("True");}
-    else{printf("False");}
+    else(
+        
+    ){printf("False");}
     return 0;
 }
