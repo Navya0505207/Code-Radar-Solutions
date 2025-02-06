@@ -2,7 +2,7 @@
 
 
 int main() {
-    int a,b,c;
+    int a,b,orop;
     scanf("%d%d",&a,%b);
     orop= a|b;
     printf("%d",orop);
