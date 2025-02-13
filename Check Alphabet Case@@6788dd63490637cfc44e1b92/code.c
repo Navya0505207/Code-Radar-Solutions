@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main(){
-    int a;
+    ch a;
     scanf("%d",&a);
     printf("%d",a);
 
-    if(a>='A' && a<='Z'){printf("Uppercase");}
+    if(a>=65 && a<=90){printf("Uppercase");}
     else{printf("Lowercase");}
     return 0;
 }
