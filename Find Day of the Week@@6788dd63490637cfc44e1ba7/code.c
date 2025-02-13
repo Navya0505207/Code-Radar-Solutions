@@ -15,6 +15,6 @@ else if(a==7){printf("Sunday");}
 
 
 
-    else{printf("Not correct number");}
+    else{printf("Invalid");}
     return 0;
 }
