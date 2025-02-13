@@ -10,7 +10,7 @@ int main() {
     } else if (n < 2 || n % 2 == 0 || n % 3 == 0 || n % 5 == 0 || n % 7 == 0) {
         printf("Not Prime ");
     } else {
-        printf("Prime number");
+        printf("Prime ");
     }
 
     return 0;
