@@ -8,5 +8,6 @@ int main(){
     else if(a==b || a==c){printf("Isosceles");}
     
     else if(a!=b && a!= c) {printf("Scalene");}
+    else{printf("None of these");}
     return 0;
 }
