@@ -1,6 +1,6 @@
 // Your code here...#include<stdio.h>
 int main(){
-    char a;
+    int a;
     scanf("%c",&a);
 
     if(a>=90){printf("A");}
