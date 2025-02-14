@@ -5,7 +5,7 @@ int main(){
     char c;
     scanf("%d%d%c",&a,&b,&c);
 
-    if(c==+){printf("%d%d",a+b);}
+    if(c=='+'){printf("%d%d",a+b);}
     
     else{printf("Different Sign");}
     return 0;
