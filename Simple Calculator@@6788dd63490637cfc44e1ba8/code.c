@@ -4,9 +4,9 @@ int main(){
     int a,b;
     char c;
     scanf("%d%d",&a,&b);
-    scanf("%c",&c);
+    scanf("%c", &c);
 
-    if(c=='+'){printf("%d%d",a+b);}
+    if(c=='+'){printf("%d",a+b);}
     
     else{printf("Different Sign");}
     return 0;
