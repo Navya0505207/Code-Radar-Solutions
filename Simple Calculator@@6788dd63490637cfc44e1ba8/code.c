@@ -9,8 +9,12 @@ int main(){
     if(c=='+'){printf("%d",a+b);}
     else if(c=='-'){printf("%d",a-b);}
      else if(c=='*'){printf("%d",a*b);}
-     else if(c=='/'){printf("%d",a/b);}
-     
+     else if (c == '/') {
+        if (b == 0) {  // Prevent division by zero
+            printf("Error: Division by zero");
+        } else {
+            printf("%d", a / b);
+        }
     
       else{printf("error");}
     return 0;
