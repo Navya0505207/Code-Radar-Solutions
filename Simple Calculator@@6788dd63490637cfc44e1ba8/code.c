@@ -7,7 +7,11 @@ int main(){
     scanf(" %c", &c);
 
     if(c=='+'){printf("%d",a+b);}
+    else if(c=='-'){printf("%d",a-b);}
+     else if(c=='*'){printf("%d",a*b);}
+     else if(c=='/'){printf("%d",a/b);}
+     
     
-    else{printf("Different Sign");}
+    else{printf("error");}
     return 0;
 }
