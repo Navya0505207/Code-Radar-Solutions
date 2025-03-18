@@ -2,13 +2,13 @@
 int main()
 {
     int i,j,n;
-    
     scanf("%d",&n);
-    for(i=1;i<=n;i++){
-       for(j=1;j<=i;j++)
-       {if((j+i)%2==0){printf("1 ");}
-       else{printf("0 ");}
-       }
+    for(i=0;i<n;i++){
+        for(j=0;j<n-i-1;j++){printf(" ");}
+        
+        for(j=1;j<=i+1;j++){printf("%d",j);}
+        for(j=i;j>0;j--){printf("%d",j);}
         printf("\n");
-        }
-        return 0;}
+    }
+    return 0;
+}
