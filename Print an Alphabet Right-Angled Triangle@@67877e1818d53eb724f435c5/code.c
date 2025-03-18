@@ -5,7 +5,8 @@ int main()
     char ch='A';
     scanf("%d",&n);
     for(i=0;i<n;i++){
-        for(j=0;j<=i;j++){ch=ch+1;
-        printf("%c",ch);}
+        for(j=0;j<=i;j++){
+        printf("%c",ch);
+        ch=ch+1;}
         printf("\n");}
         return 0;}
