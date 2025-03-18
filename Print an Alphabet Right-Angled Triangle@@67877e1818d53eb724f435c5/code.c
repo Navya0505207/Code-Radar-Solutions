@@ -7,5 +7,5 @@ int main()
     for(i=0;i<n;i++){
         for(j=0;j<=i;j++){a=a+1;
         printf("%c",a);}
-        printf("\n")};
+        printf("\n");}
         return 0;}
