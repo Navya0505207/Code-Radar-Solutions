@@ -7,7 +7,7 @@ int main() {
     
 
     printf("Enter a number: ");
-    scanf("%d", &n);
+    scanf("%d", &t);
      return 0;
 }
    prime(int t){
